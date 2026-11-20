@@ -1,0 +1,15 @@
+gcc ./src/*.c -o ./bin/main -I./inc/        编译项目
+.\bin\main.exe                              运行项目
+
+管理员ID：root
+管理员密码：root
+管理员账密数据存放在 ./inc/Root.h 宏定义当中
+
+测试用户：
+用户ID：123
+用户密码：123
+
+
+图书库链表文件存放在 ./inc/Book.txt
+用户数据链表文件存放在 ./inc/User/User.txt
+每个用户借阅的书存放在 ./inc/User/User_用户ID.txt
